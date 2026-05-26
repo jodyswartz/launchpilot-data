@@ -1,14 +1,3019 @@
 {
-  "schemaVersion": 1,
-  "source": "launchpilot",
-  "lastUpdated": null,
-  "counts": {},
-  "recentTasks": [],
-  "needsReview": [],
-  "mergedTasks": [],
-  "cancelledTasks": [],
-  "failedTasks": [],
-  "recentLogs": [],
-  "deploymentLinks": [],
-  "cleanupSummary": []
+  "generated_at": "2026-05-26T12:40:53.779Z",
+  "tasks": [
+    {
+      "id": 1,
+      "idea": "Build a habit tracker for parents",
+      "repo": "yourname/private-repo",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/yourname/private-repo/pull/1",
+      "preview_url": "https://launchpilot-preview.vercel.app/",
+      "risk": "medium",
+      "created_at": "2026-04-27 16:02:13",
+      "updated_at": "2026-04-27 16:06:48",
+      "logs": []
+    },
+    {
+      "id": 2,
+      "idea": "build a simple hello world app",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/1",
+      "preview_url": "https://launchpilot-preview.vercel.app/",
+      "risk": "medium",
+      "created_at": "2026-05-23 09:15:05",
+      "updated_at": "2026-05-23 09:18:06",
+      "logs": []
+    },
+    {
+      "id": 3,
+      "idea": "Add new LaunchPilot GitHub branch test file",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/compare/main...launchpilot/task-3-1779529529699",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-23 09:45:01",
+      "updated_at": "2026-05-23 09:46:31",
+      "logs": []
+    },
+    {
+      "id": 4,
+      "idea": "Update the README with a short section called “Built with LaunchPilot”",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "codex_running",
+      "codex_status": "running",
+      "pr_url": null,
+      "preview_url": null,
+      "risk": "unknown",
+      "created_at": "2026-05-23 10:13:59",
+      "updated_at": "2026-05-23 11:02:47",
+      "logs": []
+    },
+    {
+      "id": 5,
+      "idea": "Update the README with a short section called Built with LaunchPilot",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "failed",
+      "codex_status": "failed",
+      "pr_url": null,
+      "preview_url": null,
+      "risk": "high",
+      "created_at": "2026-05-23 12:40:29",
+      "updated_at": "2026-05-23T12:48:57.545Z",
+      "logs": []
+    },
+    {
+      "id": 6,
+      "idea": "Update the README with a short section called Built with LaunchPilot",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/compare/main...launchpilot/task-6-1779540613071",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-23 12:49:55",
+      "updated_at": "2026-05-23 12:55:59",
+      "logs": []
+    },
+    {
+      "id": 7,
+      "idea": "Update the README with a short section called Built with LaunchPilot",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/2",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-23 20:09:39",
+      "updated_at": "2026-05-23 20:11:46",
+      "logs": []
+    },
+    {
+      "id": 8,
+      "idea": "Create a simple index.html page that says “Hello from LaunchPilot” with a clean centered layout and a short subtitle: “Telegram-controlled AI coding agent.”",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/3",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-23 21:02:49",
+      "updated_at": "2026-05-23 21:04:41",
+      "logs": []
+    },
+    {
+      "id": 9,
+      "idea": "Improve the index.html page by adding a three-step “How it works” section: Telegram idea, Codex build, GitHub PR.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/4",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-24 09:17:44",
+      "updated_at": "2026-05-24 09:18:54",
+      "logs": []
+    },
+    {
+      "id": 10,
+      "idea": "Improve the existing index.html landing page by adding a clean “How it works” section with three steps: 1) Telegram idea, 2) Codex build, 3) GitHub PR. Keep the current design style, make it mobile-friendly, and do not remove the existing hero content.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/5",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 10:10:17",
+      "updated_at": "2026-05-24 10:14:43",
+      "logs": []
+    },
+    {
+      "id": 11,
+      "idea": "Update the existing index.html landing page with a polished five-step “How it works” section. The steps should be: “Telegram idea”, “Codex build”, “GitHub PR”, “Approve and merge”, and “Open website”. Add a short one-sentence explanation for each step, keep the design clean and modern, and preserve the existing hero section.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/6",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 10:16:46",
+      "updated_at": "2026-05-24 10:19:40",
+      "logs": []
+    },
+    {
+      "id": 12,
+      "idea": "Improve the README with a clear overview of LaunchPilot. Explain that it is a Telegram-controlled AI coding workflow that turns ideas into GitHub pull requests, supports approve-and-merge, and can return a live website link from Vercel or GitHub Pages. Add a “How it works” section, a “Example workflow” section, and a short “Requirements” section.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/7",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 10:21:33",
+      "updated_at": "2026-05-24 10:22:32",
+      "logs": []
+    },
+    {
+      "id": 13,
+      "idea": "Add an animated “How it works” section to the existing index.html page. Show the LaunchPilot workflow as five steps: 1) Telegram idea, 2) Codex build, 3) GitHub PR, 4) Approve and merge, 5) Open website. Use a clean modern design with connected cards or steps, simple icons, and subtle animations such as fade-in, pulse, or step-by-step highlighting. Make it responsive, with a horizontal flow on desktop and a vertical stacked layout on mobile. Keep the existing hero section and overall style.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/8",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 10:28:47",
+      "updated_at": "2026-05-24 10:31:14",
+      "logs": []
+    },
+    {
+      "id": 14,
+      "idea": "Improve the README with a beginner-friendly explanation of LaunchPilot. Add sections called “What is LaunchPilot?”, “How it works”, “Example workflow”, and “Deployment links”. The “How it works” section should describe the five-step flow: Telegram idea → Codex build → GitHub PR → Approve and merge → Open website. Include example commands using /new, /repo, /run, /status, and explain that LaunchPilot can show the live website link from Vercel or GitHub Pages after merge.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/9",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 10:36:43",
+      "updated_at": "2026-05-24 10:37:47",
+      "logs": []
+    },
+    {
+      "id": 15,
+      "idea": "Improve the README by adding a “Telegram commands” section. Include a markdown table with each LaunchPilot command, what it does, and an example. Cover: /new <idea>, /repo <taskId> <owner/repo>, /run <taskId>, /status <taskId>, /logs <taskId>, /tasks, [redacted-path]rove <taskId>, /reject <taskId>, and /merge <taskId>. Also add a short “Typical workflow” example showing the commands in order from idea to merged deployment.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/10",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 11:22:44",
+      "updated_at": "2026-05-24 11:23:51",
+      "logs": []
+    },
+    {
+      "id": 16,
+      "idea": "Make a small README change for cancel testing",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "cancelled",
+      "codex_status": "cancelled",
+      "pr_url": null,
+      "preview_url": null,
+      "risk": "unknown",
+      "created_at": "2026-05-24 11:44:03",
+      "updated_at": "2026-05-24 11:44:36",
+      "logs": [
+        {
+          "id": 1,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-24 11:44:30"
+        },
+        {
+          "id": 2,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-24 11:44:30"
+        },
+        {
+          "id": 3,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-24 11:44:30"
+        },
+        {
+          "id": 4,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-24 11:44:30"
+        },
+        {
+          "id": 5,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-16-1779623070685",
+          "created_at": "2026-05-24 11:44:32"
+        },
+        {
+          "id": 6,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-24 11:44:32"
+        },
+        {
+          "id": 7,
+          "level": "warn",
+          "message": "⚠️ Cancel requested",
+          "created_at": "2026-05-24 11:44:36"
+        },
+        {
+          "id": 8,
+          "level": "warn",
+          "message": "⚠️ Build cancelled",
+          "created_at": "2026-05-24 11:44:36"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "idea": "Improve the README to reflect the new task cancellation flow. Add documentation for /cancel TASK_ID, explain when to use it, mention that active Codex/build runs can be stopped, cancelled tasks are marked as cancelled, and the event appears in /logs TASK_ID. Also update the example workflow to include an optional cancel step.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/11",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 11:46:14",
+      "updated_at": "2026-05-24 11:47:40",
+      "logs": [
+        {
+          "id": 9,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-24 11:46:56"
+        },
+        {
+          "id": 10,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-24 11:46:56"
+        },
+        {
+          "id": 11,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-24 11:46:56"
+        },
+        {
+          "id": 12,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-24 11:46:56"
+        },
+        {
+          "id": 13,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-17-1779623216359",
+          "created_at": "2026-05-24 11:46:57"
+        },
+        {
+          "id": 14,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-24 11:46:57"
+        },
+        {
+          "id": 15,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-24 11:47:12"
+        },
+        {
+          "id": 16,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-24 11:47:12"
+        },
+        {
+          "id": 17,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-24 11:47:12"
+        },
+        {
+          "id": 18,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-24 11:47:12"
+        },
+        {
+          "id": 19,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-24 11:47:14"
+        },
+        {
+          "id": 20,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-24 11:47:30"
+        },
+        {
+          "id": 21,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-24 11:47:33"
+        },
+        {
+          "id": 22,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-24 11:47:38"
+        },
+        {
+          "id": 23,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-24 11:47:40"
+        },
+        {
+          "id": 24,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-24 11:47:40"
+        },
+        {
+          "id": 25,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-24 11:47:40"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "idea": "Improve the index.html landing page by adding a “Mission Control Workflow” section. Show the LaunchPilot flow as an animated five-step pipeline: Telegram idea, Codex build, GitHub PR, Approve and merge, Open website. Make each step light up in sequence with subtle motion and keep it mobile-friendly.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/12",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 11:53:01",
+      "updated_at": "2026-05-24 11:54:22",
+      "logs": [
+        {
+          "id": 26,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-24 11:53:25"
+        },
+        {
+          "id": 27,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-24 11:53:25"
+        },
+        {
+          "id": 28,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-24 11:53:25"
+        },
+        {
+          "id": 29,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-24 11:53:25"
+        },
+        {
+          "id": 30,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-18-1779623605210",
+          "created_at": "2026-05-24 11:53:26"
+        },
+        {
+          "id": 31,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-24 11:53:26"
+        },
+        {
+          "id": 32,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-24 11:54:05"
+        },
+        {
+          "id": 33,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-24 11:54:05"
+        },
+        {
+          "id": 34,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-24 11:54:05"
+        },
+        {
+          "id": 35,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-24 11:54:05"
+        },
+        {
+          "id": 36,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-24 11:54:07"
+        },
+        {
+          "id": 37,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-24 11:54:13"
+        },
+        {
+          "id": 38,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-24 11:54:14"
+        },
+        {
+          "id": 39,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-24 11:54:20"
+        },
+        {
+          "id": 40,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-24 11:54:21"
+        },
+        {
+          "id": 41,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-24 11:54:21"
+        },
+        {
+          "id": 42,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-24 11:54:22"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "idea": "Improve the index.html landing page with a polished product demo section for LaunchPilot. Add an animated five-step workflow showing Telegram idea → Codex build → GitHub PR → Approve and merge → Open website. Also add a small terminal-style activity feed showing example build logs. Keep the design modern, responsive, and consistent with the existing page.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/13",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 12:42:38",
+      "updated_at": "2026-05-24 13:14:05",
+      "logs": [
+        {
+          "id": 43,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-24 12:43:04"
+        },
+        {
+          "id": 44,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-24 12:43:04"
+        },
+        {
+          "id": 45,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-24 12:43:04"
+        },
+        {
+          "id": 46,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-24 12:43:04"
+        },
+        {
+          "id": 47,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-19-1779626584178",
+          "created_at": "2026-05-24 12:43:05"
+        },
+        {
+          "id": 48,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-24 12:43:05"
+        },
+        {
+          "id": 49,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-24 12:44:11"
+        },
+        {
+          "id": 50,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-24 12:44:11"
+        },
+        {
+          "id": 51,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-24 12:44:11"
+        },
+        {
+          "id": 52,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-24 12:44:11"
+        },
+        {
+          "id": 53,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-24 12:44:12"
+        },
+        {
+          "id": 54,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-24 13:13:57"
+        },
+        {
+          "id": 55,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-24 13:13:58"
+        },
+        {
+          "id": 56,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-24 13:14:02"
+        },
+        {
+          "id": 57,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-24 13:14:05"
+        },
+        {
+          "id": 58,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-24 13:14:05"
+        },
+        {
+          "id": 59,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-24 13:14:05"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "idea": "Upgrade the index.html landing page with a premium “LaunchPilot Mission Control” section. Include an animated workflow timeline, a Telegram-style agent transcript, and a small dashboard with status cards for Codex running, PR ready, merge approved, and website live. Keep the design clean, modern, responsive, and consistent with the existing page.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/14",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-24 17:48:09",
+      "updated_at": "2026-05-24 17:59:19",
+      "logs": [
+        {
+          "id": 60,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-24 17:48:57"
+        },
+        {
+          "id": 61,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-24 17:48:57"
+        },
+        {
+          "id": 62,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-24 17:48:57"
+        },
+        {
+          "id": 63,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-24 17:48:57"
+        },
+        {
+          "id": 64,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-20-1779644937026",
+          "created_at": "2026-05-24 17:48:58"
+        },
+        {
+          "id": 65,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-24 17:48:58"
+        },
+        {
+          "id": 66,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-24 17:50:26"
+        },
+        {
+          "id": 67,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-24 17:50:26"
+        },
+        {
+          "id": 68,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-24 17:50:26"
+        },
+        {
+          "id": 69,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-24 17:50:26"
+        },
+        {
+          "id": 70,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-24 17:50:28"
+        },
+        {
+          "id": 71,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-24 17:59:14"
+        },
+        {
+          "id": 72,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-24 17:59:15"
+        },
+        {
+          "id": 73,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-24 17:59:17"
+        },
+        {
+          "id": 74,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-24 17:59:19"
+        },
+        {
+          "id": 75,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-24 17:59:19"
+        },
+        {
+          "id": 76,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-24 17:59:19"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "idea": "Improve the existing index.html landing page by adding a polished footer section. The footer should include the LaunchPilot name, a short one-line description, and simple links or placeholders for GitHub, Telegram, and Website. Keep the style clean, modern, and responsive, and match the rest of the page.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/15",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-25 06:49:00",
+      "updated_at": "2026-05-25 06:53:34",
+      "logs": [
+        {
+          "id": 77,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 06:49:22"
+        },
+        {
+          "id": 78,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 06:49:22"
+        },
+        {
+          "id": 79,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 06:49:22"
+        },
+        {
+          "id": 80,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-25 06:49:22"
+        },
+        {
+          "id": 81,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-21-1779691762212",
+          "created_at": "2026-05-25 06:49:23"
+        },
+        {
+          "id": 82,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 06:49:23"
+        },
+        {
+          "id": 83,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 06:49:45"
+        },
+        {
+          "id": 84,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 06:49:45"
+        },
+        {
+          "id": 85,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 06:49:45"
+        },
+        {
+          "id": 86,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 06:49:45"
+        },
+        {
+          "id": 87,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 06:49:47"
+        },
+        {
+          "id": 88,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 06:53:29"
+        },
+        {
+          "id": 89,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 06:53:30"
+        },
+        {
+          "id": 90,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 06:53:32"
+        },
+        {
+          "id": 91,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 06:53:34"
+        },
+        {
+          "id": 92,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 06:53:34"
+        },
+        {
+          "id": 93,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-25 06:53:34"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "idea": "Add a minimal footer to the existing index.html landing page. The footer should only include the text “Built with LaunchPilot” and match the current page style. Keep it simple, subtle, and mobile-friendly. Do not add any links.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/16",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-25 06:55:55",
+      "updated_at": "2026-05-25 06:57:11",
+      "logs": [
+        {
+          "id": 94,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 06:56:15"
+        },
+        {
+          "id": 95,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 06:56:15"
+        },
+        {
+          "id": 96,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 06:56:15"
+        },
+        {
+          "id": 97,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-25 06:56:15"
+        },
+        {
+          "id": 98,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-22-1779692175866",
+          "created_at": "2026-05-25 06:56:17"
+        },
+        {
+          "id": 99,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 06:56:17"
+        },
+        {
+          "id": 100,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 06:56:41"
+        },
+        {
+          "id": 101,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 06:56:41"
+        },
+        {
+          "id": 102,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 06:56:41"
+        },
+        {
+          "id": 103,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 06:56:41"
+        },
+        {
+          "id": 104,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 06:56:43"
+        },
+        {
+          "id": 105,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 06:57:06"
+        },
+        {
+          "id": 106,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 06:57:08"
+        },
+        {
+          "id": 107,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 06:57:09"
+        },
+        {
+          "id": 108,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 06:57:11"
+        },
+        {
+          "id": 109,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 06:57:11"
+        },
+        {
+          "id": 110,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-25 06:57:11"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "idea": "Add a tasteful animated pulse to the workflow section to show progress from Telegram idea to live website. Keep the animation subtle and do not change the layout too much.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/17",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-25 07:08:32",
+      "updated_at": "2026-05-25 07:10:09",
+      "logs": [
+        {
+          "id": 111,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 07:08:47"
+        },
+        {
+          "id": 112,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 07:08:47"
+        },
+        {
+          "id": 113,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 07:08:47"
+        },
+        {
+          "id": 114,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-25 07:08:47"
+        },
+        {
+          "id": 115,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-23-1779692927135",
+          "created_at": "2026-05-25 07:08:48"
+        },
+        {
+          "id": 116,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 07:08:48"
+        },
+        {
+          "id": 117,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 07:09:36"
+        },
+        {
+          "id": 118,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 07:09:36"
+        },
+        {
+          "id": 119,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 07:09:36"
+        },
+        {
+          "id": 120,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 07:09:36"
+        },
+        {
+          "id": 121,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 07:09:38"
+        },
+        {
+          "id": 122,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 07:10:03"
+        },
+        {
+          "id": 123,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 07:10:04"
+        },
+        {
+          "id": 124,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 07:10:06"
+        },
+        {
+          "id": 125,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 07:10:08"
+        },
+        {
+          "id": 126,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 07:10:08"
+        },
+        {
+          "id": 127,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-25 07:10:09"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "idea": "Add a polished “Repos and websites” section to the existing index.html landing page. Explain that LaunchPilot works with manually connected GitHub repos, creates pull requests for review, and after merge can return the live website link from Vercel or GitHub Pages. Use concise copy, clean cards or bullets, and keep the design consistent with the rest of the page.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/18",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-25 09:12:51",
+      "updated_at": "2026-05-25 09:14:03",
+      "logs": [
+        {
+          "id": 128,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 09:13:11"
+        },
+        {
+          "id": 129,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 09:13:11"
+        },
+        {
+          "id": 130,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 09:13:11"
+        },
+        {
+          "id": 131,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-25 09:13:11"
+        },
+        {
+          "id": 132,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-24-1779700391247",
+          "created_at": "2026-05-25 09:13:12"
+        },
+        {
+          "id": 133,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 09:13:12"
+        },
+        {
+          "id": 134,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 09:13:42"
+        },
+        {
+          "id": 135,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 09:13:42"
+        },
+        {
+          "id": 136,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 09:13:42"
+        },
+        {
+          "id": 137,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 09:13:42"
+        },
+        {
+          "id": 138,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 09:13:44"
+        },
+        {
+          "id": 139,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 09:13:54"
+        },
+        {
+          "id": 140,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 09:13:55"
+        },
+        {
+          "id": 141,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 09:14:00"
+        },
+        {
+          "id": 142,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 09:14:02"
+        },
+        {
+          "id": 143,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 09:14:02"
+        },
+        {
+          "id": 144,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-25 09:14:03"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "idea": "Add a new “Repos and websites” section to the existing index.html landing page using three clean feature cards with icons: 1) Connected repo, 2) Pull request workflow, 3) Live website. Each card should have a simple icon, a short title, and a one-sentence explanation. Explain that LaunchPilot works with connected GitHub repos, creates PRs for review, and after merge can open the deployed website from Vercel or GitHub Pages. Keep it polished, minimal, and responsive.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/19",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-25 09:16:53",
+      "updated_at": "2026-05-25 09:18:21",
+      "logs": [
+        {
+          "id": 145,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 09:17:07"
+        },
+        {
+          "id": 146,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 09:17:07"
+        },
+        {
+          "id": 147,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 09:17:07"
+        },
+        {
+          "id": 148,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-25 09:17:07"
+        },
+        {
+          "id": 149,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-25-1779700627773",
+          "created_at": "2026-05-25 09:17:09"
+        },
+        {
+          "id": 150,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 09:17:09"
+        },
+        {
+          "id": 151,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 09:18:08"
+        },
+        {
+          "id": 152,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 09:18:08"
+        },
+        {
+          "id": 153,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 09:18:08"
+        },
+        {
+          "id": 154,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 09:18:08"
+        },
+        {
+          "id": 155,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 09:18:10"
+        },
+        {
+          "id": 156,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 09:18:16"
+        },
+        {
+          "id": 157,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 09:18:17"
+        },
+        {
+          "id": 158,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 09:18:18"
+        },
+        {
+          "id": 159,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 09:18:21"
+        },
+        {
+          "id": 160,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 09:18:21"
+        },
+        {
+          "id": 161,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-25 09:18:21"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "idea": "Update the repo documentation and landing page to reflect the latest LaunchPilot workflow. Mention connected GitHub repos, pull requests, approve and merge, cancel support, logs, and live website links from Vercel or GitHub Pages. Keep the changes clear, concise, and beginner-friendly.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/20",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-05-25 15:04:43",
+      "updated_at": "2026-05-25 15:07:00",
+      "logs": [
+        {
+          "id": 162,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 15:05:00"
+        },
+        {
+          "id": 163,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 15:05:00"
+        },
+        {
+          "id": 164,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 15:05:00"
+        },
+        {
+          "id": 165,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-05-25 15:05:00"
+        },
+        {
+          "id": 166,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-26-1779721500595",
+          "created_at": "2026-05-25 15:05:02"
+        },
+        {
+          "id": 167,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 15:05:02"
+        },
+        {
+          "id": 168,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 15:05:44"
+        },
+        {
+          "id": 169,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 15:05:44"
+        },
+        {
+          "id": 170,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 15:05:44"
+        },
+        {
+          "id": 171,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 15:05:44"
+        },
+        {
+          "id": 172,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 15:05:46"
+        },
+        {
+          "id": 173,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 15:06:54"
+        },
+        {
+          "id": 174,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 15:06:56"
+        },
+        {
+          "id": 175,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 15:06:57"
+        },
+        {
+          "id": 176,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 15:07:00"
+        },
+        {
+          "id": 177,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 15:07:00"
+        },
+        {
+          "id": 178,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-05-25 15:07:00"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "idea": "Add a static “LaunchPilot Mission Control” dashboard in docs/index.html. It should show two AI agent workflows: LaunchPilot for Telegram idea-to-PR builds, and S.A.G.E. for labeled GitHub issue-to-PR automation. Include a visual two-lane workflow diagram, sample recent activity cards, a “Needs Review” section, whitelisted repos, supported labels, deployment links, and safety controls like logs, cancel, approve, and merge. Keep it read-only, GitHub Pages friendly, responsive, and visually consistent with the existing LaunchPilot landing page.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/1",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-25 15:11:05",
+      "updated_at": "2026-05-25 16:02:35",
+      "logs": [
+        {
+          "id": 179,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 15:11:45"
+        },
+        {
+          "id": 180,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 15:11:45"
+        },
+        {
+          "id": 181,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 15:11:45"
+        },
+        {
+          "id": 182,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 15:11:45"
+        },
+        {
+          "id": 183,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-27-1779721905910",
+          "created_at": "2026-05-25 15:11:47"
+        },
+        {
+          "id": 184,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 15:11:47"
+        },
+        {
+          "id": 185,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 15:13:48"
+        },
+        {
+          "id": 186,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 15:13:48"
+        },
+        {
+          "id": 187,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 15:13:48"
+        },
+        {
+          "id": 188,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 15:13:48"
+        },
+        {
+          "id": 189,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 15:13:50"
+        },
+        {
+          "id": 190,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 15:37:50"
+        },
+        {
+          "id": 191,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 16:02:24"
+        },
+        {
+          "id": 192,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 16:02:25"
+        },
+        {
+          "id": 193,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 16:02:32"
+        },
+        {
+          "id": 194,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 16:02:35"
+        },
+        {
+          "id": 195,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 16:02:35"
+        },
+        {
+          "id": 196,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-25 16:02:35"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "idea": "Add a static LaunchPilot Mission Control dashboard in docs/index.html for GitHub Pages. Include sections for recent tasks, task status, PR/merge status, Vercel or GitHub Pages deployment links, latest logs, and workspace cleanup. Use sample data for now, keep it read-only, responsive, and visually consistent with the LaunchPilot landing page.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/2",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-25 16:08:36",
+      "updated_at": "2026-05-25 16:10:40",
+      "logs": [
+        {
+          "id": 197,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 16:08:54"
+        },
+        {
+          "id": 198,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 16:08:54"
+        },
+        {
+          "id": 199,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 16:08:54"
+        },
+        {
+          "id": 200,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 16:08:54"
+        },
+        {
+          "id": 201,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-28-1779725334802",
+          "created_at": "2026-05-25 16:08:56"
+        },
+        {
+          "id": 202,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 16:08:56"
+        },
+        {
+          "id": 203,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 16:09:57"
+        },
+        {
+          "id": 204,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 16:09:57"
+        },
+        {
+          "id": 205,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 16:09:57"
+        },
+        {
+          "id": 206,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 16:09:57"
+        },
+        {
+          "id": 207,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 16:09:59"
+        },
+        {
+          "id": 208,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 16:10:32"
+        },
+        {
+          "id": 209,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 16:10:34"
+        },
+        {
+          "id": 210,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 16:10:37"
+        },
+        {
+          "id": 211,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 16:10:39"
+        },
+        {
+          "id": 212,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 16:10:39"
+        },
+        {
+          "id": 213,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-25 16:10:40"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "idea": "Add a static “LaunchPilot Mission Control” dashboard in docs/index.html. It should show two AI agent workflows: LaunchPilot for Telegram idea-to-PR builds, and S.A.G.E. for labeled GitHub issue-to-PR automation. Include a visual two-lane workflow diagram, sample recent activity cards, a “Needs Review” section, whitelisted repos, supported labels, deployment links, logs, cancelled tasks, and safety controls like logs, cancel, approve, merge, and cleanup. Keep it read-only, GitHub Pages friendly, responsive, and visually consistent with the existing LaunchPilot landing page.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/3",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-25 16:19:33",
+      "updated_at": "2026-05-25 16:22:27",
+      "logs": [
+        {
+          "id": 214,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 16:19:48"
+        },
+        {
+          "id": 215,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 16:19:48"
+        },
+        {
+          "id": 216,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 16:19:48"
+        },
+        {
+          "id": 217,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 16:19:48"
+        },
+        {
+          "id": 218,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-29-1779725988152",
+          "created_at": "2026-05-25 16:19:51"
+        },
+        {
+          "id": 219,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 16:19:51"
+        },
+        {
+          "id": 220,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 16:20:49"
+        },
+        {
+          "id": 221,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 16:20:49"
+        },
+        {
+          "id": 222,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 16:20:49"
+        },
+        {
+          "id": 223,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 16:20:49"
+        },
+        {
+          "id": 224,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 16:20:51"
+        },
+        {
+          "id": 225,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 16:22:21"
+        },
+        {
+          "id": 226,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 16:22:23"
+        },
+        {
+          "id": 227,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 16:22:25"
+        },
+        {
+          "id": 228,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 16:22:27"
+        },
+        {
+          "id": 229,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 16:22:27"
+        },
+        {
+          "id": 230,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-25 16:22:27"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "idea": "Move the GitHub Pages dashboard from docs/index.html to the repo root as index.html. Preserve the existing page content and styling. Update any relative asset paths if needed. Remove docs/index.html after moving it, and update README.md to explain that the dashboard is now served from the repository root instead of the docs folder.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/4",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-25 16:26:12",
+      "updated_at": "2026-05-25 16:28:07",
+      "logs": [
+        {
+          "id": 231,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 16:26:31"
+        },
+        {
+          "id": 232,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 16:26:31"
+        },
+        {
+          "id": 233,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 16:26:31"
+        },
+        {
+          "id": 234,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 16:26:31"
+        },
+        {
+          "id": 235,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-30-1779726391618",
+          "created_at": "2026-05-25 16:26:33"
+        },
+        {
+          "id": 236,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 16:26:33"
+        },
+        {
+          "id": 237,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 16:27:02"
+        },
+        {
+          "id": 238,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 16:27:02"
+        },
+        {
+          "id": 239,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 16:27:02"
+        },
+        {
+          "id": 240,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 16:27:02"
+        },
+        {
+          "id": 241,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 16:27:04"
+        },
+        {
+          "id": 242,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 16:28:02"
+        },
+        {
+          "id": 243,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 16:28:03"
+        },
+        {
+          "id": 244,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 16:28:05"
+        },
+        {
+          "id": 245,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 16:28:07"
+        },
+        {
+          "id": 246,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 16:28:07"
+        },
+        {
+          "id": 247,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-25 16:28:07"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "idea": "Update the README to describe LaunchPilot Mission Control, including LaunchPilot Telegram tasks, S.A.G.E. GitHub issue automation, /logs, /cancel, /cleanup, approve-and-merge, and Vercel/GitHub Pages deployment links. Keep it beginner-friendly and include an example workflow.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/5",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-25 16:43:25",
+      "updated_at": "2026-05-25 16:46:51",
+      "logs": [
+        {
+          "id": 248,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 16:43:47"
+        },
+        {
+          "id": 249,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 16:43:47"
+        },
+        {
+          "id": 250,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 16:43:47"
+        },
+        {
+          "id": 251,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 16:43:47"
+        },
+        {
+          "id": 252,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-31-1779727427915",
+          "created_at": "2026-05-25 16:43:49"
+        },
+        {
+          "id": 253,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 16:43:49"
+        },
+        {
+          "id": 254,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 16:44:24"
+        },
+        {
+          "id": 255,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 16:44:24"
+        },
+        {
+          "id": 256,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 16:44:24"
+        },
+        {
+          "id": 257,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 16:44:24"
+        },
+        {
+          "id": 258,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 16:44:26"
+        },
+        {
+          "id": 259,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 16:46:45"
+        },
+        {
+          "id": 260,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 16:46:46"
+        },
+        {
+          "id": 261,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 16:46:49"
+        },
+        {
+          "id": 262,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 16:46:51"
+        },
+        {
+          "id": 263,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 16:46:51"
+        },
+        {
+          "id": 264,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-25 16:46:51"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "idea": "Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/1",
+      "preview_url": "https://launchpilot-preview.vercel.app/",
+      "risk": "medium",
+      "created_at": "2026-05-25 19:52:33",
+      "updated_at": "2026-05-25 19:55:40",
+      "logs": []
+    },
+    {
+      "id": 33,
+      "idea": "Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "approved",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/1",
+      "preview_url": "https://launchpilot-preview.vercel.app/",
+      "risk": "medium",
+      "created_at": "2026-05-25 19:59:52",
+      "updated_at": "2026-05-25 20:00:47",
+      "logs": []
+    },
+    {
+      "id": 34,
+      "idea": "Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "cancelled",
+      "codex_status": "cancelled",
+      "pr_url": null,
+      "preview_url": null,
+      "risk": "unknown",
+      "created_at": "2026-05-25 20:12:40",
+      "updated_at": "2026-05-25 20:21:00",
+      "logs": [
+        {
+          "id": 265,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 20:17:11"
+        },
+        {
+          "id": 266,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 20:17:11"
+        },
+        {
+          "id": 267,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 20:17:11"
+        },
+        {
+          "id": 268,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 20:17:11"
+        },
+        {
+          "id": 269,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-34-1779740231243",
+          "created_at": "2026-05-25 20:17:12"
+        },
+        {
+          "id": 270,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 20:17:12"
+        },
+        {
+          "id": 271,
+          "level": "warn",
+          "message": "⚠️ Build cancelled",
+          "created_at": "2026-05-25 20:18:18"
+        },
+        {
+          "id": 272,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 20:20:56"
+        },
+        {
+          "id": 273,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 20:20:56"
+        },
+        {
+          "id": 274,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 20:20:56"
+        },
+        {
+          "id": 275,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 20:20:56"
+        },
+        {
+          "id": 276,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-34-1779740456050",
+          "created_at": "2026-05-25 20:20:57"
+        },
+        {
+          "id": 277,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 20:20:57"
+        },
+        {
+          "id": 278,
+          "level": "warn",
+          "message": "⚠️ Build cancelled",
+          "created_at": "2026-05-25 20:21:00"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "idea": "Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.",
+      "repo": null,
+      "status": "awaiting_repo",
+      "codex_status": "not_started",
+      "pr_url": null,
+      "preview_url": null,
+      "risk": "unknown",
+      "created_at": "2026-05-25 20:16:49",
+      "updated_at": "2026-05-25 20:16:49",
+      "logs": []
+    },
+    {
+      "id": 36,
+      "idea": "Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "failed",
+      "codex_status": "failed",
+      "pr_url": null,
+      "preview_url": null,
+      "risk": "high",
+      "created_at": "2026-05-25 20:26:59",
+      "updated_at": "2026-05-25T20:31:32.823Z",
+      "logs": [
+        {
+          "id": 279,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 20:27:29"
+        },
+        {
+          "id": 280,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 20:27:29"
+        },
+        {
+          "id": 281,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 20:27:29"
+        },
+        {
+          "id": 282,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 20:27:29"
+        },
+        {
+          "id": 283,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-36-1779740849079",
+          "created_at": "2026-05-25 20:27:30"
+        },
+        {
+          "id": 284,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 20:27:30"
+        },
+        {
+          "id": 285,
+          "level": "error",
+          "message": "❌ Build failed: Command failed: sh -lc printf \"%s\n\" \"$CODEX_PROMPT\" | timeout \"$CODEX_TIMEOUT_SECONDS\" codex exec --sandbox danger-full-access --cd \"$REPO_DIR\" --output-last-message \"$SUMMARY_PATH\"\nReading prompt from stdin...\nOpenAI Codex v0.133.0\n--------\nworkdir: [redacted-path]\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: danger-full-access\nreasoning effort: none\nreasoning summaries: none\nsession id: 019e60d2-39f8-7001-bbfc-7b40b6356694\n--------\nuser\nTask #36: Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.\n\nMake the smallest useful change. Do not edit secrets, .env files, SSH keys, or deployment tokens. Do not make unrelated refactors.\n\nERROR: Quota exceeded. Check your plan and billing details.\nERROR: Quota exceeded. Check your plan and billing details.\n\nReading prompt from stdin...\nOpenAI Codex v0.133.0\n--------\nworkdir: [redacted-path]\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: danger-full-access\nreasoning effort: none\nreasoning summaries: none\nsession id: 019e60d2-39f8-7001-bbfc-7b40b6356694\n--------\nuser\nTask #36: Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.\n\nMake the smallest useful change. Do not edit secrets, .env files, SSH keys, or deployment tokens. Do not make unrelated refactors.\n\nERROR: Quota exceeded. Check your plan and billing details.\nERROR: Quota exceeded. Check your plan and billing details.\n",
+          "created_at": "2026-05-25 20:27:33"
+        },
+        {
+          "id": 286,
+          "level": "info",
+          "message": "🧹 Workspace cleaned up",
+          "created_at": "2026-05-25 20:32:31"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "idea": "Improve the existing index.html Mission Control dashboard to better match the current LaunchPilot workflow. Update the LaunchPilot lane to show five steps: Telegram idea, Codex build, GitHub PR, Approve and merge, and Open website. Make it clear the dashboard is read-only and that actions happen in Telegram. Add cancelled tasks to the top metrics, update the S.A.G.E. labels to sage-fix and sage-small, and make the review/merge/deployment copy match the current flow where LaunchPilot can merge a PR and then show a Vercel or GitHub Pages website link. Keep the existing design style and mobile responsiveness.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/6",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-25 20:34:26",
+      "updated_at": "2026-05-25 20:37:20",
+      "logs": [
+        {
+          "id": 287,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 20:34:45"
+        },
+        {
+          "id": 288,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 20:34:45"
+        },
+        {
+          "id": 289,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 20:34:45"
+        },
+        {
+          "id": 290,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 20:34:45"
+        },
+        {
+          "id": 291,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-37-1779741285555",
+          "created_at": "2026-05-25 20:34:47"
+        },
+        {
+          "id": 292,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 20:34:47"
+        },
+        {
+          "id": 293,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 20:35:41"
+        },
+        {
+          "id": 294,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 20:35:41"
+        },
+        {
+          "id": 295,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 20:35:41"
+        },
+        {
+          "id": 296,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 20:35:41"
+        },
+        {
+          "id": 297,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 20:35:43"
+        },
+        {
+          "id": 298,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 20:37:13"
+        },
+        {
+          "id": 299,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 20:37:15"
+        },
+        {
+          "id": 300,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 20:37:18"
+        },
+        {
+          "id": 301,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 20:37:20"
+        },
+        {
+          "id": 302,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 20:37:20"
+        },
+        {
+          "id": 303,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-25 20:37:20"
+        },
+        {
+          "id": 304,
+          "level": "info",
+          "message": "🧹 Workspace cleaned up",
+          "created_at": "2026-05-25 20:39:14"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "idea": "Improve LaunchPilot error handling for Codex failures. If Codex returns “Quota exceeded”, show a short friendly Telegram message saying the OpenAI API quota or billing limit needs attention, and keep the full details in /logs TASK_ID.",
+      "repo": "jodyswartz/launchpilot",
+      "status": "pr_created",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot/pull/11",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-25 20:40:05",
+      "updated_at": "2026-05-25 20:57:16",
+      "logs": [
+        {
+          "id": 305,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 20:45:08"
+        },
+        {
+          "id": 306,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 20:45:08"
+        },
+        {
+          "id": 307,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 20:45:08"
+        },
+        {
+          "id": 308,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot",
+          "created_at": "2026-05-25 20:45:08"
+        },
+        {
+          "id": 309,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-38-1779741908551",
+          "created_at": "2026-05-25 20:45:10"
+        },
+        {
+          "id": 310,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 20:45:10"
+        },
+        {
+          "id": 311,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 20:46:35"
+        },
+        {
+          "id": 312,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 20:46:35"
+        },
+        {
+          "id": 313,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 20:46:35"
+        },
+        {
+          "id": 314,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 20:46:35"
+        },
+        {
+          "id": 315,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 20:46:37"
+        },
+        {
+          "id": 316,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 20:57:14"
+        },
+        {
+          "id": 317,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 20:57:16"
+        },
+        {
+          "id": 318,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 20:57:19"
+        },
+        {
+          "id": 319,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 20:57:21"
+        },
+        {
+          "id": 320,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 20:57:21"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "idea": "Improve LaunchPilot merge handling so deployment URL lookup is non-fatal. If a PR merge succeeds but Vercel or GitHub Pages lookup fails with 403, still mark the task as merged and show a friendly message explaining that deployment detection needs Vercel config or GitHub Pages read permission. Keep full details in /logs TASK_ID.",
+      "repo": "jodyswartz/launchpilot",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot/pull/12",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-25 21:03:38",
+      "updated_at": "2026-05-25 21:06:13",
+      "logs": [
+        {
+          "id": 321,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 21:03:58"
+        },
+        {
+          "id": 322,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 21:03:58"
+        },
+        {
+          "id": 323,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 21:03:58"
+        },
+        {
+          "id": 324,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot",
+          "created_at": "2026-05-25 21:03:58"
+        },
+        {
+          "id": 325,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-39-1779743038146",
+          "created_at": "2026-05-25 21:04:00"
+        },
+        {
+          "id": 326,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 21:04:00"
+        },
+        {
+          "id": 327,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 21:05:31"
+        },
+        {
+          "id": 328,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 21:05:31"
+        },
+        {
+          "id": 329,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 21:05:32"
+        },
+        {
+          "id": 330,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 21:05:32"
+        },
+        {
+          "id": 331,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 21:05:33"
+        },
+        {
+          "id": 332,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 21:06:07"
+        },
+        {
+          "id": 333,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 21:06:08"
+        },
+        {
+          "id": 334,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 21:06:10"
+        },
+        {
+          "id": 335,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 21:06:12"
+        },
+        {
+          "id": 336,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 21:06:12"
+        },
+        {
+          "id": 337,
+          "level": "warn",
+          "message": "⚠️ No Vercel or GitHub Pages deployment found",
+          "created_at": "2026-05-25 21:06:13"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "idea": "Improve LaunchPilot merge handling so deployment URL lookup is non-fatal. If a PR merge succeeds but Vercel or GitHub Pages lookup fails with 403 or missing permissions, still mark the task as merged and show a friendly message that deployment detection needs configuration. Keep full details in /logs TASK_ID.",
+      "repo": "jodyswartz/launchpilot",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot/pull/13",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-25 21:11:29",
+      "updated_at": "2026-05-25 21:14:42",
+      "logs": [
+        {
+          "id": 338,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 21:11:49"
+        },
+        {
+          "id": 339,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 21:11:49"
+        },
+        {
+          "id": 340,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 21:11:49"
+        },
+        {
+          "id": 341,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot",
+          "created_at": "2026-05-25 21:11:49"
+        },
+        {
+          "id": 342,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-40-1779743509252",
+          "created_at": "2026-05-25 21:11:51"
+        },
+        {
+          "id": 343,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 21:11:51"
+        },
+        {
+          "id": 344,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 21:13:48"
+        },
+        {
+          "id": 345,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 21:13:48"
+        },
+        {
+          "id": 346,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 21:13:48"
+        },
+        {
+          "id": 347,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 21:13:48"
+        },
+        {
+          "id": 348,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 21:13:50"
+        },
+        {
+          "id": 349,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 21:14:35"
+        },
+        {
+          "id": 350,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 21:14:37"
+        },
+        {
+          "id": 351,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 21:14:40"
+        },
+        {
+          "id": 352,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 21:14:42"
+        },
+        {
+          "id": 353,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 21:14:42"
+        },
+        {
+          "id": 354,
+          "level": "warn",
+          "message": "⚠️ No Vercel or GitHub Pages deployment found",
+          "created_at": "2026-05-25 21:14:42"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "idea": "Convert the existing index.html Mission Control dashboard into a real GitHub Pages-compatible dashboard that reads data from dashboard/tasks.json. Use fetch() to load the JSON, then populate the top metrics, Recent Tasks, Status Board, Needs Review, Deployment Links, Latest Logs, Cleanup Queue, Whitelisted Repos, Supported Labels, and Cancelled Tasks. Keep the current static sample content as a fallback if dashboard/tasks.json cannot be loaded. Preserve the current design style and responsive layout.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/7",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-25 21:26:50",
+      "updated_at": "2026-05-25 21:34:07",
+      "logs": [
+        {
+          "id": 355,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-25 21:27:46"
+        },
+        {
+          "id": 356,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-25 21:27:46"
+        },
+        {
+          "id": 357,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-25 21:27:46"
+        },
+        {
+          "id": 358,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-25 21:27:46"
+        },
+        {
+          "id": 359,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-41-1779744466659",
+          "created_at": "2026-05-25 21:27:48"
+        },
+        {
+          "id": 360,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-25 21:27:48"
+        },
+        {
+          "id": 361,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-25 21:30:49"
+        },
+        {
+          "id": 362,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-25 21:30:49"
+        },
+        {
+          "id": 363,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-25 21:30:49"
+        },
+        {
+          "id": 364,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-25 21:30:49"
+        },
+        {
+          "id": 365,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-25 21:30:50"
+        },
+        {
+          "id": 366,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-25 21:34:00"
+        },
+        {
+          "id": 367,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-25 21:34:01"
+        },
+        {
+          "id": 368,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-25 21:34:05"
+        },
+        {
+          "id": 369,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-25 21:34:07"
+        },
+        {
+          "id": 370,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-25 21:34:07"
+        },
+        {
+          "id": 371,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-25 21:34:07"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "idea": "Add dashboard data export support to LaunchPilot in small, reviewable changes. Create src/dashboardExport.ts to build a sanitized tasks.json from SQLite tasks and task_logs, then push it to jodyswartz/launchpilot-data with the GitHub Contents API using DASHBOARD_DATA_* environment variables. Wire it into mergeTask after a successful merge, add /export-dashboard for manual testing, and make export failures non-blocking by logging a warning. Do not include secrets or local paths in the exported JSON.",
+      "repo": "jodyswartz/launchpilot",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot/pull/14",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-26 11:41:13",
+      "updated_at": "2026-05-26 12:13:27",
+      "logs": [
+        {
+          "id": 372,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-26 11:41:40"
+        },
+        {
+          "id": 373,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-26 11:41:40"
+        },
+        {
+          "id": 374,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-26 11:41:40"
+        },
+        {
+          "id": 375,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot",
+          "created_at": "2026-05-26 11:41:40"
+        },
+        {
+          "id": 376,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-42-1779795700401",
+          "created_at": "2026-05-26 11:41:42"
+        },
+        {
+          "id": 377,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-26 11:41:42"
+        },
+        {
+          "id": 378,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-26 11:44:51"
+        },
+        {
+          "id": 379,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-26 11:44:51"
+        },
+        {
+          "id": 380,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-26 11:44:51"
+        },
+        {
+          "id": 381,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-26 11:44:51"
+        },
+        {
+          "id": 382,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-26 11:44:53"
+        },
+        {
+          "id": 383,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-26 12:13:21"
+        },
+        {
+          "id": 384,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-26 12:13:23"
+        },
+        {
+          "id": 385,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-26 12:13:24"
+        },
+        {
+          "id": 386,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-26 12:13:27"
+        },
+        {
+          "id": 387,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-26 12:13:27"
+        },
+        {
+          "id": 388,
+          "level": "warn",
+          "message": "⚠️ No Vercel or GitHub Pages deployment found",
+          "created_at": "2026-05-26 12:13:27"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "idea": "Fix the dashboard export Telegram command. Rename /export-dashboard to /export_dashboard because Telegram bot commands cannot use hyphens. Keep backward-compatible text handling if possible, update the help text and README, and make sure /export_dashboard replies with success or a clear error.",
+      "repo": "jodyswartz/launchpilot",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot/pull/15",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-26 12:26:06",
+      "updated_at": "2026-05-26 12:29:55",
+      "logs": [
+        {
+          "id": 389,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-26 12:26:27"
+        },
+        {
+          "id": 390,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-26 12:26:27"
+        },
+        {
+          "id": 391,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-26 12:26:27"
+        },
+        {
+          "id": 392,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot",
+          "created_at": "2026-05-26 12:26:27"
+        },
+        {
+          "id": 393,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-43-1779798387459",
+          "created_at": "2026-05-26 12:26:29"
+        },
+        {
+          "id": 394,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-26 12:26:29"
+        },
+        {
+          "id": 395,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-26 12:28:02"
+        },
+        {
+          "id": 396,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-26 12:28:02"
+        },
+        {
+          "id": 397,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-26 12:28:02"
+        },
+        {
+          "id": 398,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-26 12:28:02"
+        },
+        {
+          "id": 399,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-26 12:28:04"
+        },
+        {
+          "id": 400,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-26 12:29:24"
+        },
+        {
+          "id": 401,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-26 12:29:25"
+        },
+        {
+          "id": 402,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-26 12:29:53"
+        },
+        {
+          "id": 403,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-26 12:29:55"
+        },
+        {
+          "id": 404,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-26 12:29:55"
+        },
+        {
+          "id": 405,
+          "level": "warn",
+          "message": "⚠️ No Vercel or GitHub Pages deployment found",
+          "created_at": "2026-05-26 12:29:55"
+        }
+      ]
+    }
+  ]
 }
