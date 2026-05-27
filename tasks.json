@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T20:20:37.231Z",
+  "generated_at": "2026-05-27T21:05:51.265Z",
   "tasks": [
     {
       "id": 1,
@@ -3928,6 +3928,128 @@
           "level": "info",
           "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
           "created_at": "2026-05-27 20:20:37"
+        },
+        {
+          "id": 540,
+          "level": "info",
+          "message": "✅ Dashboard data exported to jodyswartz/launchpilot-data/tasks.json",
+          "created_at": "2026-05-27 20:20:39"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "idea": "Add private-repo protection to the LaunchPilot dashboard export. The public dashboard/tasks.json should only include tasks from repos listed in a PUBLIC_DASHBOARD_REPOS allowlist. Any task from a repo not in that allowlist must be excluded from the JSON entirely, including task text, logs, PR links, website links, and repo names. Add README documentation explaining that the GitHub Pages dashboard is public and private repo tasks are intentionally hidden. Keep the dashboard working with fallback sample data.",
+      "repo": "jodyswartz/launchpilot",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot/pull/17",
+      "preview_url": null,
+      "risk": "low",
+      "created_at": "2026-05-27 20:54:10",
+      "updated_at": "2026-05-27 21:05:51",
+      "logs": [
+        {
+          "id": 541,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-27 20:55:43"
+        },
+        {
+          "id": 542,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-27 20:55:43"
+        },
+        {
+          "id": 543,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-27 20:55:43"
+        },
+        {
+          "id": 544,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot",
+          "created_at": "2026-05-27 20:55:43"
+        },
+        {
+          "id": 545,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-52-1779915343035",
+          "created_at": "2026-05-27 20:55:45"
+        },
+        {
+          "id": 546,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-27 20:55:45"
+        },
+        {
+          "id": 547,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-27 20:57:21"
+        },
+        {
+          "id": 548,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-27 20:57:21"
+        },
+        {
+          "id": 549,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-27 20:57:21"
+        },
+        {
+          "id": 550,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-27 20:57:21"
+        },
+        {
+          "id": 551,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-27 20:57:23"
+        },
+        {
+          "id": 552,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-27 21:05:44"
+        },
+        {
+          "id": 553,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-27 21:05:46"
+        },
+        {
+          "id": 554,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-27 21:05:47"
+        },
+        {
+          "id": 555,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-27 21:05:51"
+        },
+        {
+          "id": 556,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-27 21:05:51"
+        },
+        {
+          "id": 557,
+          "level": "warn",
+          "message": "⚠️ No Vercel or GitHub Pages deployment found",
+          "created_at": "2026-05-27 21:05:51"
         }
       ]
     }
