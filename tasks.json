@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T19:11:54.867Z",
+  "generated_at": "2026-05-27T20:20:37.231Z",
   "tasks": [
     {
       "id": 1,
@@ -3806,6 +3806,128 @@
           "level": "info",
           "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
           "created_at": "2026-05-27 19:11:54"
+        },
+        {
+          "id": 522,
+          "level": "info",
+          "message": "✅ Dashboard data exported to jodyswartz/launchpilot-data/tasks.json",
+          "created_at": "2026-05-27 19:11:56"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "idea": "Polish the LaunchPilot dashboard task display so it is legible for end users. Long task descriptions should be converted into compact cards with: task number, short title, status badge, repo, source agent, one-sentence summary, and action links. Move the full original task prompt into a collapsible Details section. Apply this improvement to Recent Tasks, Task Status, Status Board, Needs Review, and Deployment Links. On mobile, replace wide tables with stacked cards. Use CSS line-clamp for long summaries, add “View details” disclosure blocks for full prompts, and ensure long text wraps cleanly, is truncated where appropriate, and never breaks the layout. Keep fallback sample data and the existing tasks.json fetch behavior.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/13",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-27 20:15:09",
+      "updated_at": "2026-05-27 20:20:37",
+      "logs": [
+        {
+          "id": 523,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-27 20:15:28"
+        },
+        {
+          "id": 524,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-27 20:15:28"
+        },
+        {
+          "id": 525,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-27 20:15:28"
+        },
+        {
+          "id": 526,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-27 20:15:28"
+        },
+        {
+          "id": 527,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-51-1779912928038",
+          "created_at": "2026-05-27 20:15:29"
+        },
+        {
+          "id": 528,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-27 20:15:29"
+        },
+        {
+          "id": 529,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-27 20:18:35"
+        },
+        {
+          "id": 530,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-27 20:18:35"
+        },
+        {
+          "id": 531,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-27 20:18:35"
+        },
+        {
+          "id": 532,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-27 20:18:35"
+        },
+        {
+          "id": 533,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-27 20:18:36"
+        },
+        {
+          "id": 534,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-27 20:20:31"
+        },
+        {
+          "id": 535,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-27 20:20:33"
+        },
+        {
+          "id": 536,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-27 20:20:34"
+        },
+        {
+          "id": 537,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-27 20:20:36"
+        },
+        {
+          "id": 538,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-27 20:20:36"
+        },
+        {
+          "id": 539,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-27 20:20:37"
         }
       ]
     }
