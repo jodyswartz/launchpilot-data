@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T07:01:58.931Z",
+  "generated_at": "2026-05-28T13:12:00.677Z",
   "tasks": [
     {
       "id": 2,
@@ -3378,6 +3378,12 @@
           "level": "info",
           "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
           "created_at": "2026-05-28 07:01:58"
+        },
+        {
+          "id": 583,
+          "level": "info",
+          "message": "✅ Dashboard data exported to jodyswartz/launchpilot-data/tasks.json",
+          "created_at": "2026-05-28 07:02:00"
         }
       ]
     }
