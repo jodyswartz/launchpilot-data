@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T13:12:00.677Z",
+  "generated_at": "2026-05-28T14:00:31.057Z",
   "tasks": [
     {
       "id": 2,
@@ -3384,6 +3384,122 @@
           "level": "info",
           "message": "✅ Dashboard data exported to jodyswartz/launchpilot-data/tasks.json",
           "created_at": "2026-05-28 07:02:00"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "idea": "Update the dashboard README and UI copy to explain that private repo tasks are filtered out by LaunchPilot before tasks.json is published. Do not implement private filtering in the dashboard JavaScript. Keep fallback sample data working.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/15",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-05-28 13:57:03",
+      "updated_at": "2026-05-28 14:00:31",
+      "logs": [
+        {
+          "id": 584,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-05-28 13:57:43"
+        },
+        {
+          "id": 585,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-05-28 13:57:43"
+        },
+        {
+          "id": 586,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-05-28 13:57:43"
+        },
+        {
+          "id": 587,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-05-28 13:57:43"
+        },
+        {
+          "id": 588,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/task-55-1779976663534",
+          "created_at": "2026-05-28 13:57:45"
+        },
+        {
+          "id": 589,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-05-28 13:57:45"
+        },
+        {
+          "id": 590,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-05-28 13:58:18"
+        },
+        {
+          "id": 591,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-05-28 13:58:18"
+        },
+        {
+          "id": 592,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-05-28 13:58:18"
+        },
+        {
+          "id": 593,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-05-28 13:58:18"
+        },
+        {
+          "id": 594,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-05-28 13:58:20"
+        },
+        {
+          "id": 595,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-05-28 14:00:23"
+        },
+        {
+          "id": 596,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-05-28 14:00:25"
+        },
+        {
+          "id": 597,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-05-28 14:00:26"
+        },
+        {
+          "id": 598,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-05-28 14:00:30"
+        },
+        {
+          "id": 599,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-05-28 14:00:30"
+        },
+        {
+          "id": 600,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-05-28 14:00:31"
         }
       ]
     }
