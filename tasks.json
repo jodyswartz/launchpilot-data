@@ -1,6 +1,286 @@
 {
-  "generated_at": "2026-06-07T09:05:36.113Z",
+  "generated_at": "2026-06-07T10:42:45.102Z",
   "tasks": [
+    {
+      "id": 62,
+      "idea": "Add .launchpilot/ to .gitignore so LaunchPilot task prompt and summary files are not committed in future PRs.",
+      "repo": "jodyswartz/launchpilot-hello-world",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-hello-world/pull/21",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-hello-world/",
+      "risk": "low",
+      "created_at": "2026-06-07 10:38:32",
+      "updated_at": "2026-06-07 10:42:11",
+      "logs": [
+        {
+          "id": 695,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-06-07 10:40:27"
+        },
+        {
+          "id": 696,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-06-07 10:40:27"
+        },
+        {
+          "id": 697,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-06-07 10:40:27"
+        },
+        {
+          "id": 698,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-hello-world",
+          "created_at": "2026-06-07 10:40:27"
+        },
+        {
+          "id": 699,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/ta[redacted-api-key]",
+          "created_at": "2026-06-07 10:40:30"
+        },
+        {
+          "id": 700,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-06-07 10:40:30"
+        },
+        {
+          "id": 701,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-06-07 10:40:43"
+        },
+        {
+          "id": 702,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-06-07 10:40:43"
+        },
+        {
+          "id": 703,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-06-07 10:40:43"
+        },
+        {
+          "id": 704,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-06-07 10:40:43"
+        },
+        {
+          "id": 705,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-06-07 10:40:45"
+        },
+        {
+          "id": 706,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-06-07 10:41:51"
+        },
+        {
+          "id": 707,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-06-07 10:41:53"
+        },
+        {
+          "id": 708,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-06-07 10:42:09"
+        },
+        {
+          "id": 709,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-06-07 10:42:10"
+        },
+        {
+          "id": 710,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-06-07 10:42:10"
+        },
+        {
+          "id": 711,
+          "task_id": 62,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-hello-world/",
+          "created_at": "2026-06-07 10:42:11"
+        },
+        {
+          "id": 712,
+          "task_id": 62,
+          "level": "info",
+          "message": "🧹 Workspace cleaned up",
+          "created_at": "2026-06-07 10:42:17"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "idea": "Add .launchpilot/ to .gitignore so LaunchPilot task prompt and summary files are not committed in future PRs.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/17",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-06-07 10:26:24",
+      "updated_at": "2026-06-07 10:38:05",
+      "logs": [
+        {
+          "id": 678,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-06-07 10:27:02"
+        },
+        {
+          "id": 679,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-06-07 10:27:02"
+        },
+        {
+          "id": 680,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-06-07 10:27:02"
+        },
+        {
+          "id": 681,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/launchpilot-dashboard",
+          "created_at": "2026-06-07 10:27:02"
+        },
+        {
+          "id": 682,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/ta[redacted-api-key]",
+          "created_at": "2026-06-07 10:27:04"
+        },
+        {
+          "id": 683,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-06-07 10:27:04"
+        },
+        {
+          "id": 684,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-06-07 10:27:16"
+        },
+        {
+          "id": 685,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-06-07 10:27:16"
+        },
+        {
+          "id": 686,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-06-07 10:27:16"
+        },
+        {
+          "id": 687,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-06-07 10:27:16"
+        },
+        {
+          "id": 688,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-06-07 10:27:18"
+        },
+        {
+          "id": 689,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-06-07 10:37:01"
+        },
+        {
+          "id": 690,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-06-07 10:37:03"
+        },
+        {
+          "id": 691,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-06-07 10:38:03"
+        },
+        {
+          "id": 692,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-06-07 10:38:05"
+        },
+        {
+          "id": 693,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-06-07 10:38:05"
+        },
+        {
+          "id": 694,
+          "task_id": 61,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-06-07 10:38:05"
+        },
+        {
+          "id": 713,
+          "task_id": 61,
+          "level": "info",
+          "message": "🧹 Workspace cleaned up",
+          "created_at": "2026-06-07 10:42:30"
+        }
+      ]
+    },
     {
       "id": 60,
       "idea": "Add one sentence to the README clarifying that the public dashboard only displays tasks exported by LaunchPilot, and that private repo tasks are intentionally filtered out before tasks.json is published. Do not change any JavaScript or dashboard behavior.",
