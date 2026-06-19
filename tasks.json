@@ -1,6 +1,272 @@
 {
-  "generated_at": "2026-06-14T09:24:36.110Z",
+  "generated_at": "2026-06-19T08:39:11.251Z",
   "tasks": [
+    {
+      "id": 110,
+      "idea": "Update the LaunchPilot dashboard to add a “Connected Public Repos” section using the whitelist data.\n\nThe section should show only public repositories that are connected to LaunchPilot/S.A.G.E. by reading them from the whitelist fields published in tasks.json.\n\nRequirements:\n- Add a new section to index.html called “Connected Public Repos”.\n- The repos must come from whitelist data, not inferred from recent tasks.\n- Support these whitelist field names from tasks.json:\n  - whitelistedRepos\n  - whitelisted_repos\n  - publicWhitelist\n  - public_whitelist\n  - allowedRepos\n  - allowed_repos\n  - repos\n- If a whitelisted repo is marked private, skip it completely.\n- Support privacy fields like:\n  - private: true\n  - isPrivate: true\n  - visibility: \"private\"\n  - public: false\n- Only render repos that are public or not explicitly marked private.\n- Show each repo in a clean card or table with:\n  - repository name\n  - agent, if provided: LaunchPilot, S.A.G.E., or Both\n  - allowed work / purpose, if provided\n  - optional GitHub or website link, if provided\n- Add a short note saying private repositories may exist in the whitelist but are filtered out before display.\n- Add static fallback examples using only public repos.\n- Match the existing dashboard design using the current cards, chips, tables, spacing, and responsive layout.\n- Keep the dashboard read-only.\n- Do not add React, build tools, dependencies, or secrets.",
+      "repo": "jodyswartz/launchpilot-dashboard",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/launchpilot-dashboard/pull/18",
+      "preview_url": "https://jodyswartz.github.io/launchpilot-dashboard/",
+      "risk": "low",
+      "created_at": "2026-06-19 07:33:56",
+      "updated_at": "2026-06-19 07:38:07",
+      "logs": [
+        {
+          "id": 1510,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-06-19 07:34:48"
+        },
+        {
+          "id": 1511,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-06-19 07:34:48"
+        },
+        {
+          "id": 1512,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-06-19 07:34:48"
+        },
+        {
+          "id": 1513,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Cloning [private-repo]-dashboard",
+          "created_at": "2026-06-19 07:34:48"
+        },
+        {
+          "id": 1514,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/ta[redacted-api-key]",
+          "created_at": "2026-06-19 07:34:50"
+        },
+        {
+          "id": 1515,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-06-19 07:34:50"
+        },
+        {
+          "id": 1516,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-06-19 07:36:34"
+        },
+        {
+          "id": 1517,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-06-19 07:36:34"
+        },
+        {
+          "id": 1518,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-06-19 07:36:34"
+        },
+        {
+          "id": 1519,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-06-19 07:36:34"
+        },
+        {
+          "id": 1520,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-06-19 07:36:36"
+        },
+        {
+          "id": 1521,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-06-19 07:38:00"
+        },
+        {
+          "id": 1522,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-06-19 07:38:01"
+        },
+        {
+          "id": 1523,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-06-19 07:38:04"
+        },
+        {
+          "id": 1524,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-06-19 07:38:06"
+        },
+        {
+          "id": 1525,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-06-19 07:38:06"
+        },
+        {
+          "id": 1526,
+          "task_id": 110,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/launchpilot-dashboard/",
+          "created_at": "2026-06-19 07:38:07"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "idea": "Fix my GitHub Pages deployment workflow for my React + Vite app.\nProject:\nRoutine No. 1\nRepo:\nroutine-number-one\nProblem:\nGitHub Actions builds successfully, but deployment fails with:\n“Missing environment. Ensure your workflow’s deployment job has an environment.”\nGoal:\nWhen I push to the main branch, the app should automatically build and deploy to GitHub Pages.\nRequirements:\nCreate or fix:\n.github/workflows/deploy.yml\nWorkflow should trigger on:\non:\n  push:\n    branches:\n      - main\nUse official GitHub Pages GitHub Actions:\nactions/checkout\nactions/setup-node\nactions/configure-pages\nactions/upload-pages-artifact\nactions/deploy-pages\nThe workflow must:\ncheckout repo\nsetup Node 20\nrun npm ci\nrun npm run build\nupload dist folder\ndeploy to GitHub Pages\nIMPORTANT:\nThe deployment job MUST include the required environment configuration to fix the error:\nenvironment:\n  name: github-pages\n  url: ${{ steps.deployment.outputs.page_url }}\nCreate a separate deploy job that:\ndepends on build (needs: build)\nruns actions/deploy-pages@v4\nEnsure GitHub Pages settings are compatible:\nRepository Settings → Pages → Source = GitHub Actions\nVerify Vite config uses:\nbase: '/routine-number-one/'\nEnsure no manual deployment is required:\nAfter setup, this should work automatically:\ngit push origin main\nExpected result:\nEvery push to main automatically deploys the latest build to:\nhttps://jodyswartz.github.io/routine-number-one/\nDeliverables:\nFixed .github/workflows/deploy.yml\nExplanation of what caused the deployment failure\nConfirmation that pushing to main auto deploys\nAny GitHub settings that must be changed",
+      "repo": "jodyswartz/routine-number-one",
+      "status": "merged",
+      "codex_status": "completed",
+      "pr_url": "https://github.com/jodyswartz/routine-number-one/pull/9",
+      "preview_url": "https://jodyswartz.github.io/routine-number-one/",
+      "risk": "low",
+      "created_at": "2026-06-14 09:29:01",
+      "updated_at": "2026-06-14 12:19:11",
+      "logs": [
+        {
+          "id": 1493,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Build requested",
+          "created_at": "2026-06-14 09:29:46"
+        },
+        {
+          "id": 1494,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Task marked as Codex running",
+          "created_at": "2026-06-14 09:29:46"
+        },
+        {
+          "id": 1495,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Preparing clean workspace",
+          "created_at": "2026-06-14 09:29:46"
+        },
+        {
+          "id": 1496,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Cloning jodyswartz/routine-number-one",
+          "created_at": "2026-06-14 09:29:46"
+        },
+        {
+          "id": 1497,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Creating branch launchpilot/ta[redacted-api-key]",
+          "created_at": "2026-06-14 09:29:48"
+        },
+        {
+          "id": 1498,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Codex started editing the repo",
+          "created_at": "2026-06-14 09:29:48"
+        },
+        {
+          "id": 1499,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Codex finished successfully",
+          "created_at": "2026-06-14 09:30:50"
+        },
+        {
+          "id": 1500,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Checking generated changes",
+          "created_at": "2026-06-14 09:30:50"
+        },
+        {
+          "id": 1501,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Committing generated changes",
+          "created_at": "2026-06-14 09:30:50"
+        },
+        {
+          "id": 1502,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Pushing branch to GitHub",
+          "created_at": "2026-06-14 09:30:50"
+        },
+        {
+          "id": 1503,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Build completed and compare link is ready",
+          "created_at": "2026-06-14 09:30:52"
+        },
+        {
+          "id": 1504,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Creating pull request",
+          "created_at": "2026-06-14 12:19:06"
+        },
+        {
+          "id": 1505,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Pull request created",
+          "created_at": "2026-06-14 12:19:08"
+        },
+        {
+          "id": 1506,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Merging pull request",
+          "created_at": "2026-06-14 12:19:09"
+        },
+        {
+          "id": 1507,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Pull request merged",
+          "created_at": "2026-06-14 12:19:11"
+        },
+        {
+          "id": 1508,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Checking for Vercel or GitHub Pages deployment",
+          "created_at": "2026-06-14 12:19:11"
+        },
+        {
+          "id": 1509,
+          "task_id": 109,
+          "level": "info",
+          "message": "✅ Deployment found: https://jodyswartz.github.io/routine-number-one/",
+          "created_at": "2026-06-14 12:19:11"
+        }
+      ]
+    },
     {
       "id": 108,
       "idea": "Set up GitHub Actions deployment for my React + Vite app.\n\nProject:\nRoutine No. 1\n\nRepo:\nroutine-number-one\n\nGoal:\nWhen I push to the main branch, GitHub Actions should automatically build and deploy the app to GitHub Pages.\n\nRequirements:\n1. Create a GitHub Actions workflow file:\n   .github/workflows/deploy.yml\n\n2. The workflow should run on:\n   push to main\n\n3. It should:\n   - Check out the repo\n   - Set up Node.js\n   - Run npm ci\n   - Run npm run build\n   - Deploy the dist folder to GitHub Pages\n\n4. Use official GitHub Pages actions:\n   - actions/checkout\n   - actions/setup-node\n   - actions/configure-pages\n   - actions/upload-pages-artifact\n   - actions/deploy-pages\n\n5. Ensure vite.config.js uses:\n   base: '/routine-number-one/'\n\n6. Ensure GitHub Pages settings should be:\n   Source: GitHub Actions\n\n7. Remove the need to run npm run deploy manually.\n\n8. Keep package.json deploy scripts optional, but the GitHub Action should be the main deployment method.\n\nCreate this file:\n\n.github/workflows/deploy.yml\n\nExpected workflow:\n\nname: Deploy to GitHub Pages\n\non:\n  push:\n    branches:\n      - main\n\npermissions:\n  contents: read\n  pages: write\n  id-token: write\n\nconcurrency:\n  group: pages\n  cancel-in-progress: false\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout\n        uses: actions/checkout@v4\n\n      - name: Setup Node\n        uses: actions/setup-node@v4\n        with:\n          node-version: 20\n          cache: npm\n\n      - name: Install dependencies\n        run: npm ci\n\n      - name: Build\n        run: npm run build\n\n      - name: Setup Pages\n        uses: actions/configure-pages@v5\n\n      - name: Upload artifact\n        uses: actions/upload-pages-artifact@v3\n        with:\n          path: ./dist\n\n      - name: Deploy to GitHub Pages\n        uses: actions/deploy-pages@v4\n\nDeliverables:\n- Add the workflow file\n- Explain how to enable GitHub Pages with Source: GitHub Actions\n- Confirm that pushing to main deploys automatically",
